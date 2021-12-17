@@ -1,4 +1,5 @@
 import React from "react"
+import Navegacion from "./nav"
 import { css } from "@emotion/react"
 
 const Header = () => {
@@ -28,6 +29,7 @@ const Header = () => {
         >
           Hotel Gatsby
         </h1>
+        <Navegacion />
       </div>
     </header>
   )
