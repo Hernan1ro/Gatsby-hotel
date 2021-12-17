@@ -38,7 +38,10 @@ const Layout = ({ children }) => {
       />
       <Helmet>
         <title>Gatsby Hotel</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+          rel="stylesheet"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
