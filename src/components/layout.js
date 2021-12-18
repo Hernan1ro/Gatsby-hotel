@@ -12,6 +12,8 @@ const Layout = ({ children }) => {
             font-size: 62.5%;
           }
           body {
+            margin: 0;
+            padding: 0;
             font-size: 18px;
             font-size: 1.8rem;
             line-height: 1.5;
