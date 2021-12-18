@@ -17,10 +17,14 @@ const ContenidoInicio = () => {
       }
     }
   `)
-  console.log(information)
+  const { imagen, titulo, contenido } = information.allDatoCmsPagina.nodes[0]
   return (
     <>
-      <h2>Titulo de pagina</h2>
+      <h2>{titulo}</h2>
+      <div>
+        <p>{contenido}</p>
+        <img src={imagen.fluid.src} alt="Hotel" />
+      </div>
     </>
   )
 }
