@@ -26,7 +26,9 @@ const IndexPage = () => {
 
       <ul>
         {habitaciones.map(habitacion => {
-          return <HabitacionesPrevew />
+          return (
+            <HabitacionesPrevew key={habitacion.id} habitacion={habitacion} />
+          )
         })}
       </ul>
     </Layout>
