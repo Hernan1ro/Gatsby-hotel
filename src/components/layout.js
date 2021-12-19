@@ -8,6 +8,9 @@ const Layout = ({ children }) => {
     <>
       <Global
         styles={css`
+          * {
+            box-sizing: border-box;
+          }
           html {
             font-size: 62.5%;
           }
